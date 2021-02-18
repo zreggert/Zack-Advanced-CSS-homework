@@ -7,10 +7,17 @@
 header {
     background-color: maroon;
     padding: 20px;
+    color: white;
+    border: 5px solid white;
+}
+
+header h3 {
+    padding-top: 20px;
+    font-weight: normal;
 }
 
 nav ul li {
     display: inline;
     float: right;
-    padding-right: 30px;
+    padding-right: 40px;
 }
