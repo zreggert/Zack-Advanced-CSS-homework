@@ -6,9 +6,11 @@
 
 header {
     padding: 20px;
-    color: rgb(172, 172, 172);
+    color: rgb(92, 92, 92);
     border-bottom: none;
-    position: absolute;
+    position: fixed;
+    flex: 1;
+    z-index: 4; 
 }
 
 header h3 {
@@ -21,10 +23,10 @@ aside {
     padding: 20px;
     color: whitesmoke;
     width: 15%;
-    float: right;
     z-index: 10;
-    position: relative;
-    height: 100vh;
+    position: fixed;
+    right: 0;
+    height: 100vw;
 }
 
 nav {
@@ -54,6 +56,7 @@ main {
 section {
     padding-left: 60px;
     color: whitesmoke;
+    width: 70%;
 }
 
 section h3 {
