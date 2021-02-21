@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Changa', sans-serif;
+}
+
 header {
     padding: 20px;
     color: rgb(92, 92, 92);
@@ -11,6 +15,7 @@ header {
     position: fixed;
     flex: 1;
     z-index: 4; 
+    font-family: 'Changa';
 }
 
 header h3 {
@@ -38,6 +43,11 @@ nav ul li {
     padding-bottom: 50px;
     list-style: none;
     font-size: 25px;
+}
+
+
+nav ul li:hover {
+    color: black;
 }
 
 .hero {
