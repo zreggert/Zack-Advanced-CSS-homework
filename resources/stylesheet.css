@@ -26,7 +26,7 @@ header h3 {
 aside {
     background-color: #4e6172a9;
     padding: 20px;
-    color: whitesmoke;
+    
     width: 15%;
     z-index: 10;
     position: fixed;
@@ -38,15 +38,16 @@ nav {
     padding-top: 100px;
 }
 
-nav ul li {
+nav ul li a {
     padding-right: 40px;
     padding-bottom: 50px;
     list-style: none;
     font-size: 25px;
+    color: whitesmoke;
 }
 
 
-nav ul li:hover {
+nav ul li a:hover {
     color: #36454f; 
 }
 
