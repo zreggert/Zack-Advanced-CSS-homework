@@ -26,7 +26,6 @@ header h3 {
 aside {
     background-color: #4e6172a9;
     padding: 20px;
-    
     width: 15%;
     z-index: 10;
     position: fixed;
@@ -38,12 +37,17 @@ nav {
     padding-top: 100px;
 }
 
+nav ul li {
+    list-style: none;
+    padding-bottom: 80px;
+}
+
 nav ul li a {
     padding-right: 40px;
-    padding-bottom: 50px;
-    list-style: none;
+    list-style-type: none;
     font-size: 25px;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 
@@ -66,9 +70,9 @@ main {
 }
 
 section {
-    padding-left: 60px;
+    padding-left: 100px;
     color: whitesmoke;
-    width: 70%;
+    width: 60%;
 }
 
 section h3 {
