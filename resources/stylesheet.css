@@ -17,12 +17,15 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    width: 100%;
+    width: 70%;
+    flex-wrap: wrap;
 }
 
 header h3 {
     padding-top: 20px;
     font-weight: normal;
+    display: flex;
+    flex: 1;
 }
 
 aside {
@@ -35,10 +38,10 @@ aside {
     height: 100vw;
     display: flex;
     justify-content: flex-end;
-    min-width: 200px;
+    min-width: 200px; 
 }
 
-aside nav {
+nav {
     padding-top: 100px;
 }
 
@@ -53,6 +56,7 @@ nav ul li a {
     font-size: 25px;
     color: whitesmoke;
     text-decoration: none;
+    flex-shrink: 2;
 }
 
 
@@ -115,6 +119,10 @@ section h2 {
     }
 
     aside {
+        display: none;
+    }
+
+    .hero {
         display: none;
     }
 }
