@@ -17,7 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
-    width: 70%;
+    width: 80%;
     flex-wrap: wrap;
 }
 
@@ -76,6 +76,7 @@ nav ul li a:hover {
 main {
     position: relative;
     top: 400px;
+    z-index: 1;
 }
 
 section {
@@ -103,6 +104,10 @@ section h2 {
 
 .contact li a:hover {
     color: #36454f;
+}
+
+.projects img {
+   width: 20%;
 }
 
 @media only screen and (max-width: 480px) {
