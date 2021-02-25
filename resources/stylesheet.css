@@ -106,8 +106,16 @@ section h2 {
     color: #36454f;
 }
 
+.projects-container h4 {
+    text-align: center;
+}
+
 .projects img {
    width: 20%;
+}
+
+.projects img:hover {
+    transform: scale(1.5);
 }
 
 @media only screen and (max-width: 480px) {
