@@ -138,6 +138,11 @@ section h2 {
 .mobile {
     display: none;
 }
+
+.mobile-img {
+    display: none;
+}
+
 @media only screen and (max-width: 480px) {
     body {
         width:100%;
