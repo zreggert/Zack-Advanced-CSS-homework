@@ -6,4 +6,4 @@ For this assignment I have created a portfolio page that will showcase my projec
 
 Below is a screen of my portfolio page.
 
-![portfolio](./resources/portfolio-readme-img.jpg)
+![portfolio](./resources/portfolio-readme-img.png)
