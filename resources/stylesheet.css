@@ -117,7 +117,11 @@ section h2 {
 
 .project-container {
     width: 20%;
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 40px;
 }
+
 .project-container h4 {
     text-align: center;
 }
@@ -131,6 +135,9 @@ section h2 {
     transform: scale(1.5);
 }
 
+.mobile {
+    display: none;
+}
 @media only screen and (max-width: 480px) {
     body {
         width:100%;
@@ -139,10 +146,16 @@ section h2 {
     header {
         position: relative;
         width: 100%;
+        position: flex;
+    }
+
+    header h1 {
+        font-size: 20px
     }
 
     header h3 {
         width: 100%;
+        font-size: 16px;
     }
 
     aside {
@@ -160,5 +173,40 @@ section h2 {
 
     section {
         width: 85%;
+        padding-left: 60px;
     }
+
+    .mobile {
+        display: flex;
+    }
+
+    nav {
+        padding: 20px;
+    }
+
+
+    nav ul li {
+        display: inline;
+        list-style: none;
+    }
+    
+    nav ul li a {
+        padding-right: 40px;
+        list-style-type: none;
+        font-size: 12px;
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .project-container {
+        width: 40%;
+        padding-right: 50px;
+        
+    }
+
+    .mobile-img {
+        width: 80%;
+
+    }
+
 }    
