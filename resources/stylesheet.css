@@ -216,7 +216,14 @@ section h2 {
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
+    }
 
+    .contact ul li {
+        padding-bottom: 20px;
+        font-size: 14px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
     }
 
 }    
