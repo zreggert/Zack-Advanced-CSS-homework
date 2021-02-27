@@ -37,26 +37,31 @@ aside {
     right: 0;
     height: 100vw;
     display: flex;
-    justify-content: flex-end;
-    min-width: 200px; 
+    flex-wrap: wrap;
+    flex: 1 2 auto;
+    justify-content: flex-end; 
 }
 
 nav {
     padding-top: 100px;
+    display: flex;
+    flex: 1 2 auto;
 }
 
 nav ul li {
     list-style: none;
     padding-bottom: 80px;
+    display: flex;
+    flex: 1 2 auto;
 }
 
 nav ul li a {
-    padding-right: 40px;
     list-style-type: none;
     font-size: 25px;
     color: whitesmoke;
     text-decoration: none;
-    flex-shrink: 2;
+    display: flex;
+    flex: 1 2 auto;
 }
 
 
@@ -226,4 +231,9 @@ section h2 {
         flex-direction: column;
     }
 
-}    
+}
+
+@@media only screen and (max-width: 700px) {
+
+} 
+
