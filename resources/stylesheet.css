@@ -115,12 +115,16 @@ section h2 {
     color: #36454f;
 }
 
-.projects-container h4 {
+.project-container {
+    width: 20%;
+}
+.project-container h4 {
     text-align: center;
 }
 
-.projects img {
-   width: 20%;
+.project-container img {
+   border-radius: 10px;
+   width: 100%;
 }
 
 .projects img:hover {
@@ -130,6 +134,7 @@ section h2 {
 @media only screen and (max-width: 480px) {
     body {
         width:100%;
+        background-color: #4e6172cc
     }
     header {
         position: relative;
@@ -147,4 +152,13 @@ section h2 {
     .hero {
         display: none;
     }
-}
+
+    main {
+        position: relative;
+        top: 100px;
+    }
+
+    section {
+        width: 85%;
+    }
+}    
